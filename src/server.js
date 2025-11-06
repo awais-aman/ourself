@@ -1,5 +1,5 @@
 import express from "express";
-import { expressMiddleware } from "@apollo/server/express4";
+import { expressMiddleware } from "@as-integrations/express5";
 
 import { apollo } from "./graphql/apollo.js";
 
