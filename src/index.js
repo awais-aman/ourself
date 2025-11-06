@@ -1,5 +1,16 @@
-import { server } from "./server.js";
+import http from "node:http";
+import { ApolloServerPluginDrainHttpServer } from "@apollo/server/plugin/drainHttpServer";
 
-const PORT = 3000;
+import { createApp } from "./server.js";
 
-server.listen(PORT, () => console.log(`Server is running at port ${PORT}`));
+const port = Number(process.env.PORT ?? 3000);
+const httpServer = http.createServer();
+// Apollo stops itself on SIGINT/SIGTERM; the drain plugin lets in-flight
+// requests finish before the HTTP server closes.
+const { app } = await createApp({
+  plugins: [ApolloServerPluginDrainHttpServer({ httpServer })],
+});
+
+httpServer.on("request", app);
+httpServer.listen(port, () => console.log(`Menu API listening on http://localhost:${port}/graphql`));
+
