@@ -1,3 +1,4 @@
+import { describe, expect, it } from "vitest";
 import supertest from "supertest";
 
 import { menu as menuData } from "../src/menu.js";
