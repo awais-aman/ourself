@@ -4,6 +4,7 @@ import { ApolloServerPluginLandingPageDisabled } from "@apollo/server/plugin/dis
 
 import { typeDefs } from "./typeDefs.js";
 import { queryLimitsRule } from "./limits.js";
+import { searchItems } from "./searchItems.js";
 
 export function createApollo({ menu, env, plugins = [] }) {
   const production = env === "production";
@@ -13,6 +14,7 @@ export function createApollo({ menu, env, plugins = [] }) {
     resolvers: {
       Query: {
         menu: () => menu,
+        searchItems: (_, args) => searchItems(menu, args),
       },
     },
     introspection: !production,
