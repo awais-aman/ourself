@@ -23,7 +23,7 @@ export const menu = {
       },
       {
         name: "Chicken and Cabbage Eggrolls",
-        ingredients: "hot &amp; sour dipping sauce",
+        ingredients: "hot & sour dipping sauce",
         price: 6.95,
       },
     ],
@@ -36,13 +36,13 @@ export const menu = {
         price: 12.95,
       },
       {
-        name: "Stout Braised Bratwusrt",
+        name: "Stout Braised Bratwurst",
         ingredients:
           "horseradish mashed potatoes roasted root veggies grilled onion",
         price: 13.95,
       },
       {
-        name: "Salmon &amp; Crispy Tofu in Yellow Curry Sauce",
+        name: "Salmon & Crispy Tofu in Yellow Curry Sauce",
         ingredients: "vegetable sauté golden raisin chutney",
         price: 15.95,
       },
@@ -55,9 +55,8 @@ export const menu = {
     ],
   },
   sandwiches: {
-    description: `Served with choice of house pasta salad, green salad, or fresh fruit. For an additional $1.50,
-      you can “upgrade” (by substituting) to ½ pasta salad of the day, French onion soup or soup of
-      the day.`,
+    description:
+      "Served with choice of house pasta salad, green salad, or fresh fruit. For an additional $1.50, you can “upgrade” (by substituting) to ½ pasta salad of the day, French onion soup or soup of the day.",
     items: [
       {
         name: "Turkey & Avocado - half",
@@ -72,23 +71,23 @@ export const menu = {
       {
         name: "Pub Club - half",
         ingredients:
-          "turkey, bacon. lettuce, tomato, Choice of sourdough, whole wheat, or rye bread",
+          "turkey, bacon, lettuce, tomato, Choice of sourdough, whole wheat, or rye bread",
         price: 7.95,
       },
       {
         name: "Pub Club - full",
         ingredients:
-          "turkey, bacon. lettuce, tomato, Choice of sourdough, whole wheat, or rye bread",
+          "turkey, bacon, lettuce, tomato, Choice of sourdough, whole wheat, or rye bread",
         price: 9.25,
       },
       {
-        name: "Rare Roast Beef &amp; Swiss - half",
+        name: "Rare Roast Beef & Swiss - half",
         ingredients:
           "sweet-hot mustard, lettuce, red onion, Choice of sourdough, whole wheat, or rye bread",
         price: 7.95,
       },
       {
-        name: "Rare Roast Beef &amp; Swiss - full",
+        name: "Rare Roast Beef & Swiss - full",
         ingredients:
           "sweet-hot mustard, lettuce, red onion, Choice of sourdough, whole wheat, or rye bread",
         price: 9.25,
@@ -108,49 +107,49 @@ export const menu = {
       {
         name: "Southwest Chicken Breast",
         ingredients:
-          "Grilled Onion, Poblano Pepper, Tomato, Lettuce, Jack Cheese, Choice of whole wheat or cheese &amp; onion bun",
+          "Grilled Onion, Poblano Pepper, Tomato, Lettuce, Jack Cheese, Choice of whole wheat or cheese & onion bun",
         price: 9.5,
       },
       {
         name: "Portobello",
         ingredients:
-          "Fresh Mozzarella Caramelized Onion, Roasted Pepper, Tomato, Field Greens, Basil Aioli, Choice of whole wheat or cheese &amp; onion bun",
+          "Fresh Mozzarella Caramelized Onion, Roasted Pepper, Tomato, Field Greens, Basil Aioli, Choice of whole wheat or cheese & onion bun",
         price: 9.5,
       },
       {
         name: "Chipotle BBQ Pork Sandwich",
         ingredients:
-          "Pickled Jalapeño Slaw, Choice of whole wheat or cheese &amp; onion bun",
+          "Pickled Jalapeño Slaw, Choice of whole wheat or cheese & onion bun",
         price: 9.5,
       },
       {
         name: "Bacon Burger*",
         ingredients:
-          "Swiss, Lettuce, Tomato, Choice of whole wheat or cheese &amp; onion bun",
+          "Swiss, Lettuce, Tomato, Choice of whole wheat or cheese & onion bun",
         price: 9.25,
       },
       {
         name: "Mexi Burger*",
         ingredients:
-          "Pepper Relish, Pepper Jack, Tomato, Lettuce, Guacamole, Choice of whole wheat or cheese &amp; onion bun",
+          "Pepper Relish, Pepper Jack, Tomato, Lettuce, Guacamole, Choice of whole wheat or cheese & onion bun",
         price: 9.25,
       },
       {
         name: "Herb Marinated Top Sirloin*",
         ingredients:
-          "Crimini Mushrooms, Caramelized Onion, Gorgonzola, Basil Aioli, Served Open Faced on Fococcia, Choice of whole wheat or cheese &amp; onion bun",
+          "Crimini Mushrooms, Caramelized Onion, Gorgonzola, Basil Aioli, Served Open Faced on Focaccia, Choice of whole wheat or cheese & onion bun",
         price: 10.95,
       },
       {
         name: "Roast Beef",
         ingredients:
-          "Ancho Au Jus Jack Cheese, Grilled Onions, Served on Crumb Bros. Baguette Choice of whole wheat or cheese &amp; onion bun",
+          "Ancho Au Jus Jack Cheese, Grilled Onions, Served on Crumb Bros. Baguette Choice of whole wheat or cheese & onion bun",
         price: 9.75,
       },
       {
         name: "Blackened Catfish",
         ingredients:
-          "Creole Peppers &amp; Onions, Fresh Herb Aioli, Choice of whole wheat or cheese &amp; onion bun",
+          "Creole Peppers & Onions, Fresh Herb Aioli, Choice of whole wheat or cheese & onion bun",
         price: 9.75,
       },
     ],
@@ -175,47 +174,48 @@ export const menu = {
     ],
   },
   fajitas: {
-    description: `Served with red rice, black beans, grilled tomato salad, choice of corn or flour tortillas`,
+    description:
+      "Served with red rice, black beans, grilled tomato salad, choice of corn or flour tortillas",
     items: [
       {
-        name: "Fajita",
+        name: "Chicken Fajita",
         price: 10.95,
         ingredients:
-          "Chicken Onions, Poblano and Bell Peppers, Guacamole, Two Salsas",
+          "Onions, Poblano and Bell Peppers, Guacamole, Two Salsas",
       },
       {
-        name: "Fajita",
+        name: "Sirloin Steak Fajita",
         price: 10.95,
         ingredients:
-          "Sirloin Steak, Onions, Poblano and Bell Peppers, Carrots, Onion, Guacamole, Two Salsas",
+          "Onions, Poblano and Bell Peppers, Carrots, Onion, Guacamole, Two Salsas",
       },
     ],
   },
   tacos: {
     description:
-      "Served with red rice, black beans, corn &amp; romaine salad, tortilla chips",
+      "Served with red rice, black beans, corn & romaine salad, tortilla chips",
     items: [
       {
-        name: "tacos",
+        name: "Beer Battered Fish Tacos",
         ingredients:
-          "Beer Battered Fish with Jalapeño Remoulade, Roasted Salsa, Cabbage",
+          "Jalapeño Remoulade, Roasted Salsa, Cabbage",
         price: 9.95,
       },
       {
-        name: "tacos",
+        name: "Carne Asada Tacos",
         ingredients:
-          "Carne Asada (marinated sirloin) with Guacamole, Tomatillo Salsa",
+          "Marinated sirloin, Guacamole, Tomatillo Salsa",
         price: 9.95,
       },
       {
-        name: "tacos",
-        ingredients: "Citrus Marinated Chicken with Guacamole, Tomatillo Salsa",
+        name: "Citrus Marinated Chicken Tacos",
+        ingredients: "Guacamole, Tomatillo Salsa",
         price: 9.95,
       },
       {
-        name: "tacos",
+        name: "Grilled Veggie Tacos",
         ingredients:
-          "Grilled Veggie with Zucchini, Yellow Squash, Bell Peppers, Onion, Guacamole, Tomatillo Salsa",
+          "Zucchini, Yellow Squash, Bell Peppers, Onion, Guacamole, Tomatillo Salsa",
         price: 9.95,
       },
     ],
@@ -227,7 +227,7 @@ export const menu = {
       {
         name: "Chili Relleno Stuffed",
         ingredients:
-          "Jack Cheese &amp; Corn Glazed Yam, Chayote Squash Succotash, Red Chilli Sauce",
+          "Jack Cheese & Corn Glazed Yam, Chayote Squash Succotash, Red Chilli Sauce",
         price: 9.95,
       },
       {
@@ -250,39 +250,39 @@ export const menu = {
   greenSalads: {
     items: [
       {
-        name: "Green Salad",
+        name: "Grilled Red Trout Salad",
         ingredients:
-          "Grilled Red Trout Lentils, Tomatoes, Cukes, Green Beans, Red Bells, Almonds, Sundried Tomato Vinaigrette",
+          "Lentils, Tomatoes, Cukes, Green Beans, Red Bells, Almonds, Sundried Tomato Vinaigrette",
         price: 10.95,
       },
       {
-        name: "Green Salad",
+        name: "Smoked Turkey Salad",
         ingredients:
-          "Smoked Turkey Cheese Tortellini, Bacon, Tomato, Cucumber, Egg, Black Bean-Corn Salsa, Avocado",
+          "Cheese Tortellini, Bacon, Tomato, Cucumber, Egg, Black Bean-Corn Salsa, Avocado",
         price: 9.95,
       },
       {
-        name: "Green Salad",
+        name: "Asian Grilled Chicken Salad",
         ingredients:
-          "Asian Grilled Chicken Snow Peas, Carrot Slaw, Red Bells, Water Chestnut, Peanuts, Baby Corn, Cilantro, Cukes, Spicy Peanut Dressing",
+          "Snow Peas, Carrot Slaw, Red Bells, Water Chestnut, Peanuts, Baby Corn, Cilantro, Cukes, Spicy Peanut Dressing",
         price: 10.5,
       },
       {
-        name: "Green Salad",
+        name: "Southwest Grilled Chicken Salad",
         ingredients:
-          "Southwest Grilled Chicken Tomato, Guacamole, pepitas, Jicama, Corn &amp; Black Bean Salsa, Orange Wedges, Spicy Citrus Vinaigrette",
+          "Tomato, Guacamole, pepitas, Jicama, Corn & Black Bean Salsa, Orange Wedges, Spicy Citrus Vinaigrette",
         price: 10.5,
       },
       {
-        name: "Green Salad",
+        name: "Mediterranean Salad",
         ingredients:
-          "Mediterranean Italian Sausage, Artichoke Hearts, Green Beans, Roma Tomato, Kalamatas, Red Onion, Cucumber, Croutons, Parmesan, Fresh Mozzarella, Gorgonzola Vinaigrette",
+          "Italian Sausage, Artichoke Hearts, Green Beans, Roma Tomato, Kalamatas, Red Onion, Cucumber, Croutons, Parmesan, Fresh Mozzarella, Gorgonzola Vinaigrette",
         price: 9.95,
       },
       {
-        name: "Green Salad",
+        name: "Grilled Salmon Salad",
         ingredients:
-          "Grilled Salmon Artichoke tapenade, shredded kale, corn, radish, parmesan crisps",
+          "Artichoke tapenade, shredded kale, corn, radish, parmesan crisps",
         price: 11.5,
       },
     ],
